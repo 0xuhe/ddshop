@@ -45,7 +45,7 @@ func (b *bark) Send(title, body string) error {
 		DeviceKey: b.key,
 		Title:     title,
 		Body:      body,
-		Sound:     "alarm.caf",
+		Sound:     "minuet.caf",
 	}
 	bs, err := json.Marshal(data)
 	if err != nil {
